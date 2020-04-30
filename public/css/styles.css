@@ -1,0 +1,85 @@
+html,
+body {
+  height: 100%;
+  text-align: center;
+}
+
+body {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #85a392;
+  font-family: 'Acme', sans-serif;
+}
+
+.form-signin {
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  margin: auto;
+}
+.form-signin .checkbox {
+  font-weight: 400;
+}
+.form-signin .form-control {
+  position: relative;
+  box-sizing: border-box;
+  height: auto;
+  padding: 10px;
+  font-size: 16px;
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+.top{
+  margin-top: 15px;
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.middle{
+  margin-bottom: -1px;
+  border-radius: 0;
+}
+
+.bottom{
+  margin-bottom: 25px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.logo{
+  width:50%;
+  height:50%;
+  border-radius: 90px;
+}
+
+.h3{
+  font-size: 2.6rem;
+  font-style: oblique;
+}
+.mt-5{
+font-size: 12px;
+  color:#f4f4f4;
+  padding-top: 12px;
+}
+
+
+/* jumbotron */
+
+
+.SJ{
+  text-align: center;
+  background-color: #edffea;
+  padding: 3% 13%;
+}
+
+.FJ{
+  text-align: center;
+  background-color: #fcf7bb;
+  padding: 3% 13%;
+}
